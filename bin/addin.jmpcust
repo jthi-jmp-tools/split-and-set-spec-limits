@@ -1,0 +1,22 @@
+<!-- JMP Add-In Builder created --><jm:menu_and_toolbar_customizations xmlns:jm="http://www.jmp.com/ns/menu" version="3">
+  <jm:insert_in_main_menu>
+    <jm:insert_in_menu>
+      <jm:name>Add-Ins</jm:name>
+      <jm:insert_after>
+        <jm:name></jm:name>
+        <jm:menu>
+          <jm:name>JMP-TOOLS</jm:name>
+          <jm:caption>JMP-Tools</jm:caption>
+          <jm:command>
+            <jm:name>SPLIT AND SET SPEC LIMITS</jm:name>
+            <jm:caption>Split and Set Spec Limits</jm:caption>
+            <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.split.and.set.spec.limits)/split_and_set_spec_limits_gui.jsl");</jm:action>
+            <jm:tip>Run Split and Set Spec Limits of JMP-Tools created by @jthi</jm:tip>
+            <jm:icon type="builtin">ProcessCapability</jm:icon>
+          </jm:command>
+        </jm:menu>
+      </jm:insert_after>
+    </jm:insert_in_menu>
+  </jm:insert_in_main_menu>
+</jm:menu_and_toolbar_customizations>

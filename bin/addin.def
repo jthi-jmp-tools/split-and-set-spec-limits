@@ -1,0 +1,5 @@
+id=jthi.jmp.tools.split.and.set.spec.limits
+name=JMP-Tools Split and Set Spec Limits
+supportJmpSE=0
+addinVersion=1
+minJmpVersion=16
